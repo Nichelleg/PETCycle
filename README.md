@@ -164,3 +164,67 @@ The initial preparation process will include:
 The initial proof of concept will prioritize a manageable
 subset of the available data rather than downloading
 the complete hyperspectral archive.
+
+---
+
+## Proposed Models & Evaluation
+
+PETCycle will investigate three complementary approaches
+to textile identification using the OpenTextile-NIR dataset.
+
+### 1. RGB Computer Vision Model
+
+A pretrained MobileNetV2 convolutional neural network (CNN)
+will be explored for extracting visual features from fabric
+photographs.
+
+Transfer learning will reduce the need to train a deep
+learning model from scratch.
+
+### 2. NIR Spectral Classification
+
+A Support Vector Machine (SVM) will be explored for
+classifying textile composition using near-infrared
+spectral measurements.
+
+Spectral preprocessing and feature scaling will be
+evaluated as part of this approach.
+
+### 3. Multimodal Feature Fusion
+
+PETCycle will investigate combining RGB image features
+with NIR spectral features in a classification model.
+
+This approach will explore whether integrating visual
+and spectral information improves textile identification
+compared with either modality alone.
+
+### Evaluation Strategy
+
+The proposed models will be evaluated using:
+
+- Classification accuracy.
+- Precision, recall, and F1-score.
+- Confusion matrices.
+- Comparison of RGB-only, NIR-only, and combined models.
+- Inference time, where practical.
+
+Training and evaluation data will be separated by
+physical textile sample to reduce data leakage.
+
+### Preliminary Success Criteria
+
+The initial goal is to demonstrate a reproducible
+computer vision proof of concept that processes textile
+images and generates interpretable classification results.
+
+A preliminary quantitative target is an F1-score of
+at least 0.70 on a clearly defined textile classification
+task, subject to dataset feasibility and class balance.
+
+The project will also investigate whether combining
+RGB and NIR information improves performance over
+the individual approaches.
+
+Results will be reported with appropriate limitations
+given the small number of independent textile samples.
