@@ -228,3 +228,80 @@ the individual approaches.
 
 Results will be reported with appropriate limitations
 given the small number of independent textile samples.
+
+---
+
+## Development Milestones
+
+### Phase 1: Research & Planning
+- Define the problem and project objectives.
+- Research textile recycling and identification technologies.
+- Identify and examine publicly available datasets.
+- Develop the Midterm Blueprint and technical approach.
+
+### Phase 2: Data Preparation
+- Validate image filenames and composition labels.
+- Explore fiber composition distributions.
+- Preprocess RGB images.
+- Examine and prepare NIR spectral measurements.
+- Establish appropriate training and evaluation splits.
+
+### Phase 3: Computer Vision Development
+- Implement a pretrained MobileNetV2 model.
+- Extract features from textile photographs.
+- Train and evaluate an initial classification model.
+- Document results and limitations.
+
+### Phase 4: Spectral Analysis & Integration
+- Develop an SVM baseline using NIR spectral features.
+- Investigate combining RGB and NIR features.
+- Compare individual and multimodal approaches.
+- Evaluate classification performance and inference time.
+
+### Phase 5: Final Evaluation & Documentation
+- Refine the working proof of concept.
+- Prepare visualizations and model comparisons.
+- Document findings, limitations, and future improvements.
+- Complete the final demonstration and project report.
+
+---
+
+## Risks & Contingency Plans
+
+| Potential Risk | Mitigation / Fallback |
+|---|---|
+| Limited number of textile samples | Use pretrained models, avoid training a CNN from scratch, and clearly report evaluation limitations. |
+| Imbalanced material compositions | Examine class distributions and select an appropriate classification task and metrics. |
+| Data leakage between measurements | Split training and evaluation data by physical textile sample. |
+| RGB images may not reliably identify fiber composition | Treat visual classification as an exploratory baseline and investigate NIR as complementary evidence. |
+| Large hyperspectral files | Begin with available CSV spectral measurements rather than full hyperspectral image cubes. |
+| Incomplete or inconsistent sample identifiers | Validate image-to-label matches and exclude unresolved records from supervised training. |
+| Multimodal integration proves infeasible | Deliver a working RGB computer vision demonstration and document NIR integration as future development. |
+| Limited development time or computing resources | Use Google Colab, lightweight pretrained models, and manageable datasets. |
+
+---
+
+## Tools & Development Environment
+
+- **Google Colab:** Notebook development and experimentation.
+- **Python:** Primary programming language.
+- **TensorFlow / Keras:** MobileNetV2 and transfer learning.
+- **scikit-learn:** SVM classification and evaluation.
+- **NumPy / pandas:** Data preparation and analysis.
+- **OpenCV / Pillow:** Image processing.
+- **Matplotlib:** Visualizations.
+- **GitHub:** Version control and project documentation.
+
+The project will use free and open-source tools.
+
+---
+
+## Project Deliverables
+
+- Public GitHub repository with documentation.
+- Data source information and preparation notes.
+- Reproducible Google Colab notebook.
+- Working computer vision proof of concept.
+- Model evaluation and visualizations.
+- Midterm Blueprint presentation.
+- Final project demonstration and report.
