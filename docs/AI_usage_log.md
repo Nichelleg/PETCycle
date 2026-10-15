@@ -3,7 +3,7 @@
 **Course:** ITAI 1378 — Computer Vision
 **Semester:** Fall 2026
 **Project:** PETCycle
-**Student:** Nichelle
+**Student:** Nichelle Graf
 
 ---
 
@@ -17,7 +17,11 @@ textile waste and explore their potential integration into
 a consumer-facing recycling awareness application.
 
 ### Research and Questions
-- Researched Carbios and enzymatic PET recycling.
+- Researched Carbios, a French biotechnology company developing
+  enzymatic recycling technology that breaks down PET plastics
+  and polyester textiles into reusable molecular components.
+  Explored how this technology could reduce textile waste
+  in landfills and support a circular economy.
 - Investigated the environmental impact of polyester
   clothing entering landfills.
 - Explored smartphone sensors and their potential
@@ -26,8 +30,10 @@ a consumer-facing recycling awareness application.
   its relationship to computer vision.
 - Reviewed Fraunhofer IPMS research on miniature
   spectrometers and AI-assisted textile identification.
+  
 
 ### AI Assistance
+- Collaborated with ChatGPT to research emerging technologies and refine my original PETCycle concept. I directed the  research, challenged technical assumptions, evaluated potential applications, and made decisions about the project's purpose and direction.
 - Explained differences between RGB imaging,
   thermal imaging, and NIR spectroscopy.
 - Helped distinguish spectroscopy from computer vision
@@ -36,7 +42,7 @@ a consumer-facing recycling awareness application.
 - Suggested publicly available textile imaging and
   spectroscopy datasets.
 - Helped interpret the Computer Vision project
-  requirements and develop the PETCycle concept.
+  requirements and develop the PETCycle concept to align with my .
 
 ### What I Learned
 Computer vision can operate alongside specialized sensing
