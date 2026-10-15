@@ -68,3 +68,29 @@ an accessible smartphone application.
 For the Computer Vision course, PETCycle will focus on
 developing and evaluating a feasible proof of concept using
 publicly available textile image and spectral datasets.
+
+---
+
+## Technical Approach
+
+PETCycle will investigate a multimodal approach to textile
+identification, combining conventional RGB images with
+near-infrared (NIR) spectral information.
+
+The proposed workflow includes:
+
+- **Computer Vision:** Analyze textile images to identify
+  fabric regions and extract visual features.
+- **Spectral Analysis:** Explore NIR measurements to distinguish
+  textile fibers that may appear visually similar.
+- **Machine Learning:** Investigate classification models
+  suitable for identifying polyester and polyester blends.
+- **Multimodal Integration:** Evaluate how visual and spectral
+  information could complement each other to improve
+  material identification.
+
+The initial proof of concept will use publicly available
+datasets and free, open-source Python libraries.
+
+Specific models and evaluation methods will be selected
+after examining dataset structure, labels, and compatibility.
