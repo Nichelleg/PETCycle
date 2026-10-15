@@ -41,3 +41,30 @@ difficulties identifying fiber composition, contributes to
 the disposal of potentially recoverable materials.
 
 PETCycle seeks to bridge the gap between emerging textile recycling technologies and consumer participation by exploring how computer vision, near-infrared (NIR) spectroscopy, and artificial intelligence can work together to identify polyester-containing garments, increase awareness of their environmental impact, and help consumers make more informed decisions about textile disposal and recycling.
+
+---
+
+## Proposed Solution
+
+PETCycle envisions an AI-assisted textile identification system
+that combines computer vision with near-infrared (NIR)
+spectroscopy to identify fabric composition.
+
+The proposed system would:
+
+1. Use computer vision to identify a garment and locate
+   relevant fabric regions for analysis.
+2. Incorporate NIR spectral information to help distinguish
+   polyester from other textile fibers and identify blends.
+3. Apply machine learning to classify materials based on
+   available visual and spectral data.
+4. Provide consumers with information about identified
+   materials, environmental considerations, and potential
+   recycling pathways.
+
+The long-term vision is to integrate these capabilities into
+an accessible smartphone application.
+
+For the Computer Vision course, PETCycle will focus on
+developing and evaluating a feasible proof of concept using
+publicly available textile image and spectral datasets.
