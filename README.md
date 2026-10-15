@@ -94,3 +94,73 @@ datasets and free, open-source Python libraries.
 
 Specific models and evaluation methods will be selected
 after examining dataset structure, labels, and compatibility.
+
+---
+
+## Dataset & Data Sources
+
+### Primary Dataset: OpenTextile-NIR (2026)
+
+PETCycle will use OpenTextile-NIR, a publicly available
+research dataset designed to support automated textile
+identification, sorting, and recycling.
+
+**Source:** https://zenodo.org/records/18269172
+
+The dataset provides:
+
+- **71 textile samples** with documented fiber compositions.
+- **71 RGB photographs** captured using a smartphone camera.
+- **Near-infrared hyperspectral imaging data** containing
+  material-specific spectral information.
+- **Fiber composition labels** identifying materials such as
+  polyester, cotton, viscose, wool, and elastane.
+- **Polyester concentration data**, including pure polyester
+  fabrics and polyester blends.
+
+### Preliminary Data Exploration
+
+Initial examination of the composition labels identified:
+
+- 8 samples labeled as 100% polyester.
+- 54 samples containing polyester blends.
+- 9 samples without a recorded polyester percentage.
+
+The RGB archive contains 71 JPEG photographs,
+each approximately 1875 × 1832 pixels.
+
+A preliminary comparison identified 70 exact filename matches
+between the image archive and the composition records.
+One naming inconsistency requires further investigation.
+
+### Dataset Limitations
+
+The dataset contains only 71 physical textile samples,
+despite providing millions of spectral measurements.
+
+This creates limitations for model training and evaluation.
+
+Potential challenges include:
+
+- Small sample size for image classification.
+- Uneven representation of polyester and non-polyester fabrics.
+- Possible differences between reported and actual
+  fiber compositions.
+- Risk of data leakage when multiple measurements originate
+  from the same textile sample.
+- One unresolved image-to-label filename discrepancy.
+
+### Planned Data Preparation
+
+The initial preparation process will include:
+
+1. Validate sample identifiers and composition labels.
+2. Examine the distribution of textile fiber percentages.
+3. Resize and normalize RGB images for model input.
+4. Explore appropriate spectral preprocessing techniques.
+5. Separate training and evaluation data by physical
+   textile sample to minimize data leakage.
+
+The initial proof of concept will prioritize a manageable
+subset of the available data rather than downloading
+the complete hyperspectral archive.
