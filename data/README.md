@@ -1,4 +1,4 @@
-# PETCycle — Dataset Documentation
+# PolyCycleSEE — Dataset Documentation
 
 ## Proposed Primary Dataset
 OpenTextile-NIR
