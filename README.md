@@ -1,4 +1,4 @@
-# ♻️ PETCycle
+# PolyCycle♻️SEE
 ## AI-Powered Textile Identification & Recycling Awareness
 ### *Know Your Fabric. Rethink Your Waste.*
 
@@ -11,7 +11,7 @@
 ___
 ## Project Overview
 
-PETCycle is a proposed consumer-focused application that explores
+PolyCycleSEE is a proposed consumer-focused application that explores
 the integration of computer vision, near-infrared (NIR) spectroscopy,
 and artificial intelligence to identify textile fiber composition
 and promote awareness of textile waste.
@@ -40,13 +40,13 @@ combined with limited textile recycling infrastructure and
 difficulties identifying fiber composition, contributes to
 the disposal of potentially recoverable materials.
 
-PETCycle seeks to bridge the gap between emerging textile recycling technologies and consumer participation by exploring how computer vision, near-infrared (NIR) spectroscopy, and artificial intelligence can work together to identify polyester-containing garments, increase awareness of their environmental impact, and help consumers make more informed decisions about textile disposal and recycling.
+PolyCycleSEE seeks to bridge the gap between emerging textile recycling technologies and consumer participation by exploring how computer vision, near-infrared (NIR) spectroscopy, and artificial intelligence can work together to identify polyester-containing garments, increase awareness of their environmental impact, and help consumers make more informed decisions about textile disposal and recycling.
 
 ---
 
 ## Proposed Solution
 
-PETCycle envisions an AI-assisted textile identification system
+PolyCycleSEE envisions an AI-assisted textile identification system
 that combines computer vision with near-infrared (NIR)
 spectroscopy to identify fabric composition.
 
@@ -65,7 +65,7 @@ The proposed system would:
 The long-term vision is to integrate these capabilities into
 an accessible smartphone application.
 
-For the Computer Vision course, PETCycle will focus on
+For the Computer Vision course, PolyCycleSEE will focus on
 developing and evaluating a feasible proof of concept using
 publicly available textile image and spectral datasets.
 
@@ -73,7 +73,7 @@ publicly available textile image and spectral datasets.
 
 ## Technical Approach
 
-PETCycle will investigate a multimodal approach to textile
+PolyCycleSEE will investigate a multimodal approach to textile
 identification, combining conventional RGB images with
 near-infrared (NIR) spectral information.
 
@@ -101,7 +101,7 @@ after examining dataset structure, labels, and compatibility.
 
 ### Primary Dataset: OpenTextile-NIR (2026)
 
-PETCycle will use OpenTextile-NIR, a publicly available
+PolyCycleSEE will use OpenTextile-NIR, a publicly available
 research dataset designed to support automated textile
 identification, sorting, and recycling.
 
@@ -169,7 +169,7 @@ the complete hyperspectral archive.
 
 ## Proposed Models & Evaluation
 
-PETCycle will investigate three complementary approaches
+PolyCycleSEE will investigate three complementary approaches
 to textile identification using the OpenTextile-NIR dataset.
 
 ### 1. RGB Computer Vision Model
@@ -192,7 +192,7 @@ evaluated as part of this approach.
 
 ### 3. Multimodal Feature Fusion
 
-PETCycle will investigate combining RGB image features
+PolyCycleSEE will investigate combining RGB image features
 with NIR spectral features in a classification model.
 
 This approach will explore whether integrating visual
