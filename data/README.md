@@ -1,20 +1,17 @@
-# PolyCycleSEE — Dataset Documentation
+## PolyCycleSEE — Dataset Documentation
+### Proposed Primary Dataset:    OpenTextile-NIR
 
-## Proposed Primary Dataset
-OpenTextile-NIR
+### Source:  *https://zenodo.org/records/18269172*
 
-## Source
-https://zenodo.org/records/18269172
-
-## Description
+### Description
 A research dataset containing textile photographs,
 near-infrared hyperspectral imaging data, and
 fiber composition information.
 
-## Intended Use
+### Intended Use
 Explore computer vision and spectral analysis methods
 for identifying polyester-containing textiles.
 
-## Status
+### Status
 Dataset identified. File structure, licensing,
 and suitability for the project are pending verification.
