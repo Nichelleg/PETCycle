@@ -1,9 +1,12 @@
-# PETCycle — AI Usage Log
+# PolyCycleSEE — AI Usage Log
+
+**Nichelle Graf**
+
+**Project:** Midterm & Final development
 
 **Course:** ITAI 1378 — Computer Vision
+
 **Semester:** Fall 2026
-**Project:** PETCycle
-**Student:** Nichelle Graf
 
 ---
 
@@ -54,7 +57,7 @@ composition, while computer vision can identify and analyze
 regions of interest within images.
 
 ### How I Applied It
-Selected PETCycle as my Computer Vision project concept.
+Selected PETCycle for application name.
 
 Identified OpenTextile-NIR as a potential research dataset.
 
@@ -67,3 +70,31 @@ and dataset documentation.
 
 Confirm dataset suitability and develop a realistic
 computer vision proof of concept.
+
+___
+## Entry 2: October 15, 2026 — Project Branding & Blueprint Development
+**AI Tool:** ChatGPT (OpenAI)
+
+**Purpose:** Collaborate on project naming, technical planning,
+and Midterm Blueprint presentation development.
+
+**My Contributions:**
+- Developed the name PolyCycleSEE to communicate the
+  connection between polymers, recycling, and computer vision.
+- Established the environmental-awareness message and
+  investigative presentation theme.
+- Directed revisions to the technical workflow and
+  presentation content.
+
+**NOTE:**  Project naming update 10/15/2026: The project was originally developed under the working name PETCycle. After discovering existing commercial uses of that name, I developed and selected PolyCycleSEE to better represent the integration of polymer identification, circularity, and computer vision. AI assisted with brainstorming and preliminary name research.
+
+**How AI Assisted:**
+- Researched potential naming conflicts.
+- Helped organize technical explanations and diagrams.
+- Assisted with slide development and wording.
+
+**What I Learned / Applied:**
+- How to communicate a multimodal computer vision
+  architecture to a nontechnical audience.
+- How to distinguish the proposed consumer application
+  from the semester's proof of concept.
