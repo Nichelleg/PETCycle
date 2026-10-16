@@ -7,10 +7,15 @@
 **Course:** ITAI 1378 – Computer Vision | Fall 2026  
 **Institution:** Houston City College  
 **Project Status:** Midterm Project Blueprint – Planning & Research
+**Project Tier:** 2 — Advanced
 
+PolyCycleSEE is proposed as Tier 2 because it integrates computer vision, NIR spectral classification, and multimodal AI analysis rather than relying on a single classification model.
 ___
-## Project Overview
 
+## Project Overview
+**ONE SENTENCE:**
+PolyCycleSEE combines computer vision, near-infrared (NIR) spectroscopy, and artificial intelligence to analyze textile        images and spectral measurements, estimate fabric composition, and help consumers make informed decisions about textile        reuse and recycling.
+___
 PolyCycleSEE is a proposed consumer-focused application that explores
 the integration of computer vision, near-infrared (NIR) spectroscopy,
 and artificial intelligence to identify textile fiber composition
